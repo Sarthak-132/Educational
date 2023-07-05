@@ -27,7 +27,7 @@ function App() {
   return (
     <>
      
-      <BrowserRouter>
+      <BrowserRouter basename="/Educational">
         <Navbar title = "Educational" mode = {mode} toggleMode={toggleMode}/>
 
 
