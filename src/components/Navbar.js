@@ -7,13 +7,13 @@ export default function Navbar(props) {
 
   return (
     <>
-      <nav
+      <nav id="Navbar"
         className={`navbar navbar-expand-md navbar-${props.mode} bg-${props.mode}`}
       >
         <div className="container-fluid">
           <a
             className="navbar-brand mx-3"
-            href="#"
+            href="#Navbar"
             style={{ border: "2px solid rgb(22, 83, 91)", padding: "5px 10px" }}
           >
             {props.title}
@@ -33,17 +33,17 @@ export default function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link mx-3" href="/Home">
+                <a className="nav-link mx-3" href="#Home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mx-3" href="/Working">
+                <a className="nav-link mx-3" href="#Working">
                   Working
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mx-3" href="/Service">
+                <a className="nav-link mx-3" href="#Service">
                   Service
                 </a>
               </li>
@@ -57,14 +57,14 @@ export default function Navbar(props) {
                   onClick={props.toggleMode} 
                   type="checkbox"
                   role="switch"
-                  id="flexSwitchCheckDefault"
+                  id="flexSwitchCheckDefault" style={{cursor:"pointer"}}
                 />
                 <label
                   className="form-check-label" 
                   htmlFor="flexSwitchCheckDefault"
-                  id="checkBox"
+                  id="checkBox" style={{ cursor:"pointer",fontWeight:"bold"}}
                 >
-                Light Mode
+                 Mode
                 </label>
               </div>
             </ul>

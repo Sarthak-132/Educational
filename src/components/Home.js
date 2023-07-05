@@ -12,7 +12,7 @@ export default function Home(props) {
     <>
       <div
         className="home"
-        style={{ backgroundColor: props.mode === "dark" ? "white" : "dark" }}
+        style={{ backgroundColor: props.mode === "dark" ? "white" : "dark" }} id="Home"
       >
         <div className="container">
           {/* grid */}
@@ -81,7 +81,7 @@ export default function Home(props) {
                   style={{
                     width: "20rem",
                     margin: "50px 0px 0px 0px",
-                    border: "1px solid black",
+                    border: "1px solid black"
                   }}
                 >
                   <img src={img2} className="card-img-top" alt="card" />
@@ -89,7 +89,7 @@ export default function Home(props) {
                     <h2 className="card_intro">{props.title_first}</h2>
                     <p
                       className="card-text"
-                      style={{ padding: "2px 0px 8px 0px", fontSize: "14px" }}
+                      style={{ padding: "2px 0px 8px 0px", fontSize: "14px"}}
                     >
                       All courses, whether in the video, audio, screen sharing,
                       or another format, are preserved so that student may

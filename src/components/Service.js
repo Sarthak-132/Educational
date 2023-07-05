@@ -10,7 +10,7 @@ export default function Services(props) {
   return (
     <>
      
-      <div className="container-fluid">
+      <div className="container-fluid" id="Service">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="card mb-3" style={bgColor}>
