@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.home{
+
+    width: 98vw;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* :root{
+    --div-height: 80vh;
+    --bg-size: 100% 100%;
+} */
+
+
+.top_div{
+    height: 290px;
+    width: 100vw;
+}
+
+#top_center{
+    height: 90px;
+    font-family: 'Inter', sans-serif;
+}
+
+.card_3{
+    height: 180px;
+    width: 440px;
+}
+
+#First_elem{
+    font-size: 2.8em;
+    
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+.number{
+    margin: 28px;
+}
+
+.number p{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 15px;
+    padding: 0px 10px;
+}
+
+.number p b{
+    font-size: 30px;
+}
+
+#second{
+    margin:0px 0px 1px 0px; 
+}
+
+
+.btn{
+    font-family: 'Inter', sans-serif;
+}
+
+.card_grid{
+    transition: all 0.3s ease-in;
+}
+
+.card_grid:hover{
+    transform: scale(1.05);
+}
+
+.card-text{
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+
